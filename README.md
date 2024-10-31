@@ -18,3 +18,6 @@ This is a web application that allows you to create any blog post you want. All 
 - Node.js
 - npm 
 
+# LIVE HOSTING SITE
+https://bloogg-a5946.web.app
+

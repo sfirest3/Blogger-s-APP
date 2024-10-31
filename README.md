@@ -1,7 +1,20 @@
-# A Blog Starter App
+# THE BLOGGER SITE
 
-This is a trivial blog app, started with Vite.
+## Description
+This is a web application that allows you to create any blog post you want. All you need to do is simply click "NEW ARTICLE"
 
-It works entirely within memory, so reloads blow everything away except for the first two mock articles.
 
-This repo is designed for you to fork and extend with (1) better CSS and (2) a real back end, with authentication and a database.
+# Features
+- User authentication (sign in and sign out).
+- Create new articles.
+- View a list of articles.
+- Responsive layout suitable for both mobile and desktop screens.
+- Visually balanced design with a professional layout.
+
+# Contributors
+- Spencer Firestone
+
+# Prerequisites
+- Node.js
+- npm 
+

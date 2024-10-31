@@ -1,14 +1,20 @@
-import { login, logout, loggedInUserDisplayName } from "../services/authService"
+import { login, logout, loggedInUserDisplayName } from "../services/authService";
 
 export function SignIn() {
-  return <button onClick={login}>Sign In</button>
+  return (
+    <button className="auth-button" onClick={login}>
+      Log In
+    </button>
+  );
 }
 
 export function SignOut() {
   return (
-    <div>
-      Hello, {loggedInUserDisplayName()}  
-      <button onClick={logout}>Sign Out</button>
+    <div className="auth-container">
+      <span className="greeting">Hello, {loggedInUserDisplayName()}</span>
+      <button className="auth-button" onClick={logout}>
+        Log Out
+      </button>
     </div>
-  )
+  );
 }

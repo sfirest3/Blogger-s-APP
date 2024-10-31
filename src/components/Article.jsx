@@ -2,7 +2,7 @@ export default function Article({ article }) {
   return (
     <article>
       {!article ? (
-        <p> MUST SELECT AN ARTICLE </p>
+        <p> MUST SELECT AN ARTICLE  // CREATE ARTICLE</p>
       ) : (
         <section>
           <h2>{article.title}</h2>

@@ -34,7 +34,7 @@ export default function App() {
         <div className="auth-controls">
           {user && (
             <button className="new-article-btn" onClick={() => setWriting(true)}>
-              New Article
+              Create Article
             </button>
           )}
           {!user ? <SignIn /> : <SignOut />}
